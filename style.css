@@ -1,0 +1,221 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  height: 100vh;
+}
+
+.box-1 {
+  width: 37%;
+  background-color: #d4b154;
+  height: 125vh;
+}
+.box-3 {
+  width: 38%;
+  background-color: #d4b154;
+  height: 125vh;
+}
+
+.box-2 {
+  width: 25%;
+  background-color: #363543;
+  height: 125vh;
+}
+
+.top-bar {
+  background-color: #282834;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding-left: 25px;
+  padding-right: 15px;
+}
+
+.top-bar-left {
+  display: flex;
+  align-items: center;
+  font-family: Microsoft YaHei UI;
+}
+
+.top-bar-right {
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  color: #feffff;
+  padding-left: 15px;
+  padding-top: 15px;
+  font-size: 22px;
+  font-family: Microsoft YaHei UI;
+}
+.name-ım {
+  padding-top: 15px;
+  color: #807f8d;
+}
+
+.info {
+  color: #80808e;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  display: flex;
+  flex-direction: column;
+
+  font-family: Microsoft YaHei UI;
+}
+
+.services {
+  padding-left: 15px;
+  color: #888795;
+  padding-bottom: 15px;
+}
+
+.services-p {
+  color: #7f7c8c;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.read-more {
+  text-decoration: none;
+  color: #d4b154;
+  font-size: 8px;
+}
+
+.buttons {
+  size: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.instagram {
+  background: #d4b154;
+  border-radius: 100%;
+  padding-top: 7px;
+  padding-left: 7px;
+  padding-right: 5px;
+}
+
+.linkedin {
+  background: #d4b154;
+  border-radius: 100%;
+  padding-top: 6px;
+  padding-left: 6px;
+  padding-right: 5px;
+}
+
+.github {
+  background: #d4b154;
+  border-radius: 100%;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.telegram {
+  background: #d4b154;
+  border-radius: 100%;
+  padding-top: 6px;
+  padding-left: 6px;
+  padding-right: 5px;
+}
+
+.image {
+  border: #e6b542 1px solid;
+  border-radius: 100%;
+  object-fit: contain;
+  background: #000;
+}
+
+hr {
+  margin-top: 10px;
+  width: 30%;
+  background: #e6b542;
+  border-style: solid;
+  border-color: #e6b542;
+  border-radius: 10px;
+  height: 5px;
+}
+
+.my-image {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.full-website {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  color: #d4b154;
+}
+
+.bottom-box {
+  margin-top: 20px;
+  background: #505166;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-buttons {
+  background: #505166;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50vh;
+}
+
+.box-row-1 {
+  width: 90%;
+  height: 8vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.button-1 {
+  background: #282633;
+  height: 45px;
+  width: 40%;
+}
+
+.button-2 {
+  background: #282633;
+  height: 45px;
+  width: 40%;
+}
+
+.box-row-2 {
+  width: 90%;
+  height: 8vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.button-3 {
+  background: #282633;
+  height: 45px;
+  width: 40%;
+}
